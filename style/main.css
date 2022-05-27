@@ -1,0 +1,115 @@
+.top_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top_flex .test {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  -webkit-animation: move43 10s infinite;
+          animation: move43 10s infinite;
+}
+
+@-webkit-keyframes move43 {
+  0% {
+    background-color: tomato;
+    width: 100px;
+  }
+  100% {
+    background-color: green;
+    width: 50%;
+  }
+}
+
+@keyframes move43 {
+  0% {
+    background-color: tomato;
+    width: 100px;
+  }
+  100% {
+    background-color: green;
+    width: 50%;
+  }
+}
+
+.position {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.position .test1 {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  -webkit-animation: movexxx1 10s infinite;
+          animation: movexxx1 10s infinite;
+}
+
+@-webkit-keyframes movexxx1 {
+  0% {
+    background-color: tomato;
+    height: 100px;
+  }
+  100% {
+    background-color: yellow;
+    height: 600px;
+    left: calc(50% - 100px);
+  }
+}
+
+@keyframes movexxx1 {
+  0% {
+    background-color: tomato;
+    height: 100px;
+  }
+  100% {
+    background-color: yellow;
+    height: 600px;
+    left: calc(50% - 100px);
+  }
+}
+
+.position .test2 {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  -webkit-animation: movexxx2 10s infinite;
+          animation: movexxx2 10s infinite;
+}
+
+@-webkit-keyframes movexxx2 {
+  0% {
+    background-color: tomato;
+    height: 100px;
+  }
+  100% {
+    background-color: yellow;
+    height: 600px;
+    right: calc(50% - 100px);
+  }
+}
+
+@keyframes movexxx2 {
+  0% {
+    background-color: tomato;
+    height: 100px;
+  }
+  100% {
+    background-color: yellow;
+    height: 600px;
+    right: calc(50% - 100px);
+  }
+}
+/*# sourceMappingURL=main.css.map */
